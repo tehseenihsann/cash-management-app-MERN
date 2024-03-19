@@ -1,2 +1,1 @@
-# cash-management-app-MERN
-Project for Rafique Garments
+# This project for Rafique Garments

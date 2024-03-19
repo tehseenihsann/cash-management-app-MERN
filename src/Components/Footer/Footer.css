@@ -1,0 +1,15 @@
+.footer-wrapper {
+    /* width: 100%; */
+    /* position: relative; */
+    /* bottom: 0; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* height: 40px; */
+}
+
+.copy {
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+}

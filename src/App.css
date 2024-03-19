@@ -1,0 +1,55 @@
+.App {
+    display: flex;
+}
+
+.side {
+    flex: 1;
+}
+
+.side.open {
+    display: none;
+}
+
+
+.canv-btn {
+    z-index: 4;
+}
+
+.main {
+    width: 100%;
+}
+
+.main.closed {
+    flex: 4;
+    transition: left 0.3s ease-in-out;
+}
+
+.main.open {
+    position: relative;
+    z-index: 2;
+    transition: left 0.3s ease-in-out;
+}
+
+.top {
+    background-color: #333;
+    width: 100%;
+}
+
+.pages {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: 10px;
+    height: calc(100vh - 150px);
+    overflow: auto;
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    background-color: #333;
+    z-index: 3;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,45 @@
+.info-graph {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #333;
+    padding: 40px;
+    margin: 20px;
+    flex: 3;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.5);
+}
+
+.item:hover {
+    cursor: pointer;
+    background-color: #272727;
+}
+
+.table {
+    margin-top: 40px;
+}
+
+.tbl {
+    width: 97%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.3);
+
+}
+
+.t-row:nth-child(odd) {
+    background-color: rgb(192, 192, 192);
+}
+
+.t-row .t-head {
+    background-color: #333;
+    color: #fff;
+}
+
+.t-row .t-data {
+    padding: 10px;
+}
